@@ -1,0 +1,39 @@
+.options {
+  display: flex;
+  justify-content: right;
+}
+.fa-bars {
+  font-size: 38px;
+  margin-right: 10px;
+  color: #ffff;
+}
+.ventana {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  position: absolute;
+  background-color: #161616;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  display: none;
+}
+.ventana__cruz {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.fa-times {
+  font-size: 25px;
+  color: #ffff;
+}
+.ventana__section {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Lora", serif;
+}
