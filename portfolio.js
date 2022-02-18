@@ -17,7 +17,6 @@ function getContent() {
       return res.json();
     })
     .then((data) => {
-      console.log(data);
       const fieldsCollection = data.items.map((items) => {
         const obj = {
           titulo: items.fields.titulo,
