@@ -1,0 +1,74 @@
+.contenedor5 {
+  display: block;
+
+  align-content: flex-start;
+  background-color: #379683;
+}
+.laptop {
+  width: 75px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin: 0px;
+}
+.fecha {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 90px;
+  padding-left: 16px;
+}
+
+.ig,
+.link,
+.git {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+.git {
+  padding-bottom: 119px;
+}
+@media (min-width: 1080px) {
+  .contenedor5 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo-lap {
+    justify-content: left;
+  }
+  .redes {
+    display: block;
+    padding-top: 5vw;
+    padding-right: 20vw;
+  }
+  .laptop {
+    width: 6vw;
+    max-width: 80px;
+  }
+  .fecha {
+    font-size: 15px;
+  }
+  .ig,
+  .link,
+  .git {
+    width: 3vw;
+    height: 3vw;
+    max-width: 25px;
+    max-height: 25px;
+    justify-content: baseline;
+  }
+  .nomb-redes {
+    align-items: flex-start;
+  }
+}

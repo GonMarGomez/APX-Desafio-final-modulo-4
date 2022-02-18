@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+body {
+  background-color: black;
+}
+.header {
+  padding-top: 40px;
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__boton {
+  display: flex;
+}
+.fa-laptop-code {
+  font-size: 38px;
+  display: flex;
+  color: #ffff;
+  display: flex;
+}
+
+.fa-bars:before {
+  font-size: 38px;
+  margin-right: 10px;
+  color: #ffff;
+  display: flex;
+}
+.header__menu-desktop {
+  display: none;
+}
+.header__icono {
+  display: block;
+}
+@media (min-width: 1080px) {
+  .boton {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .header__icono {
+    display: flex;
+  }
+  .fa-bars:before {
+    display: flex;
+  }
+  .header__options {
+    display: flex;
+    padding-left: 150px;
+  }
+
+  .header__menu {
+    font-family: "Lora", serif;
+    font-size: 3vh;
+    color: #ffff;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+  }
+  .fa-laptop-code:before {
+    font-size: 50px;
+    display: flex;
+    justify-content: left;
+  }
+  .header__menu-desktop {
+    display: flex;
+    align-self: flex-end;
+    gap: 4vw;
+  }
+}
+.boton-options {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: none;
+}
+.boton__texto {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  color: white;
+}
+.fa-times {
+  position: absolute;
+  color: white;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}

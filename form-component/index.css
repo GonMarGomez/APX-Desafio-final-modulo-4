@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.formulario-de-contacto {
+  background-color: #141414;
+}
+.formulario-de-contacto__titulo-box {
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.formulario-de-contacto__titulo {
+  font-family: "Open Sans", sans-serif;
+  color: #fafafa;
+  font-size: 30px;
+}
+.nombre {
+  padding-bottom: 9px;
+}
+.font-inp {
+  color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+.nombre-inp {
+  size: 335px 45px;
+}
+.inputfield {
+  justify-self: center;
+  max-width: 500px;
+  display: grid;
+  padding-bottom: 27px;
+  padding-left: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+  justify-self: flex-start;
+  padding-top: 30px;
+  padding-bottom: 9px;
+}
+.inp-camp {
+  width: 90%;
+  height: 45px;
+}
+.inp-area {
+  width: 90%;
+  height: 113px;
+}
+.botton {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 60px 20px 70px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-amarillo {
+  width: 80%;
+  height: 45px;
+  background-color: #ffd953;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  line-height: 10px;
+  border-color: #ffd953;
+  font-size: 16px;
+}
+@media (min-width: 1080px) {
+  .formulario-de-contacto {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+  .formulario-de-contacto__titulo-cont {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+  }
+  .formulario-de-contacto__titulo-box {
+    padding: 0px;
+    display: flex;
+    padding-top: 3vw;
+  }
+  .formulario-de-contacto__titulo {
+    font-size: 38px;
+  }
+  .inputfield {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+  }
+  .input-text {
+    font-size: 28px;
+  }
+
+  .inp-area {
+    margin-bottom: 20px;
+  }
+  .button-amarillo {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 480px;
+    height: 30px;
+    height: 39px;
+  }
+  .botton {
+    display: flex;
+    justify-self: center;
+    max-width: 310px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .inp-camp {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+  }
+  .inp-area {
+    text-align: center;
+    width: 300px;
+    height: 80px;
+  }
+}

@@ -14,23 +14,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./hamburguer-button/index.css">
-<script defer src="./hamburguer-button/index.js"></script>
+<link rel="stylesheet" href="./header-component/index.css">
+<link rel="stylesheet" href="./footer-component/index.css">
+<link rel="stylesheet" href="./form-component/index.css">
+<script defer src="./footer-component/index.js"></script>
+<script defer src="./header-component/index.js"></script>
+<script defer src="./form-component/index.js"></script>
 <script defer src="./index.js"></script>
 
 
-<body>
-    <div class ="bienvenida">
-     <header class="header">
-        <div class="header__icono"><i class="fas fa-laptop-code"></i></div> 
-        <div class="header__options"></div>
-        <nav class="header__menu-desktop">
-            <a href="#cont-dos" class="header__menu">Quién soy</a>
-            <a href="#cont-tres" class="header__menu">Servicios</a>
-            <a href="#cont-contacto" class="header__menu">Escribime</a>
-        </nav>
-     </header>
 
+
+<body>
+    <section class="secciones">
+    <div class ="bienvenida">
+        <div class="header-El"></div>
     <div class="titulo1">
         <template id="bienvenida">
         <h1 class="titulo__texto">Bienvenidxs a mi site</h1>
@@ -42,15 +40,13 @@
         <template id="presentacion"> 
         <div class="contenido">
             <h2 class="contenido__mi-nombre">Soy Gonzalo</h2>
-        <div class="contenido__parrafo">
             <p class="sobre-mi">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies dolor.</p>
         </div>
-    </div>
-    <div class="contenido__foto-box">
-        <img class="contenido__foto" src="./Imagenes/desktop-img.png" alt="">
-
-        </div>
-    </template>
+            <div class = "contenido__img">
+                
+                <img class="contenido__foto" src="" alt=""></div>
+                
+        </template>
     </div>
     <div class="mis-servicios">
     <div class="mis-servicios__titulo">
@@ -69,42 +65,7 @@
         </div></template>
    
    
-    <div class="contenedor4">
-        <div class="contenido-4">
-        <div class="titulo-cont">
-            <h2 class="titl-4">Escribime</h2>
-        </div>
-        <div class="inputfield">
-            <label class="input-text" for="Nombre">NOMBRE</label>
-            <input class=inp-camp id="Nombre" type="text">
-            <label class="input-text" for="Email">EMAIL</label>
-            <input class=inp-camp id="Email" type="email">
-            <label class="input-text" for="Mensaje">Mensaje</label>
-            <textarea class="inp-area" name="Mensaje" id="" cols="30" rows="10"></textarea>
-            <div class="botton"><button class="button-amarillo">Enviar</button></div> 
-        </div></div>
-    </div>
-            <div class="contenedor5">
-                <div class="logo-lap">
-                <div class="laptop">
-                    <img class="laptop" src="./Imagenes/laptop.png" alt="">
-                </div> 
-                <div class="fecha">
-                    <h3 class="fecha">© 2021 Gonza</h3>
-                </div></div>
-                <div class="redes">
-
-                <div class="ig">
-                    <img class="ig" src="./Imagenes/instagram.png" alt=>
-                    <p class="nomb-redes">Instagram</p>
-                </div>
-                <div class="link">
-                    <img class="link" src="./Imagenes/linkedin.png" alt="">
-                    <p class="nomb-redes"> Linkedin</p>
-                </div>
-                <div class="git">
-                    <img class="git" src="./Imagenes/github.png" alt="">
-                    <p class="nomb-redes"> Github</p>
-                </div></div>
-            </div>
+    <div class="formulario-de-contacto"></div>
+            <div class="footer"></div>
+        </section>
     </body>

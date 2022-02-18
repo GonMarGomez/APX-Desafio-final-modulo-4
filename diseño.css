@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  padding-right: 200px;
+  font-family: "Lora", serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #379683;
+}
+.inicio {
+  padding: 0px 20px 0px 20px;
+}
+.inicio__content-bloque {
+  display: flex;
+  flex-direction: column;
+}
+.inicio__titulo {
+  color: #edf5e1;
+  font-size: 42px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+.inicio__foto-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+.contenido__foto {
+  width: 300px;
+  padding-top: 50px;
+}
+.inicio__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.inicio__text {
+  display: flex;
+  margin: 0px;
+  color: #edf5e1;
+  font-size: 24px;
+}
+.inicio__parrafo-box {
+  display: flex;
+  max-width: 500px;
+}
+.inicio__parrafo-text {
+  text-align: center;
+  color: #edf5e1;
+  font-size: 16px;
+  margin: 0px;
+  max-width: 800px;
+}
+.inicio__link {
+  display: flex;
+  color: #fbeec1;
+  font-weight: 900;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.footerEl {
+  padding-top: 50px;
+}
+@media (min-width: 1080px) {
+  body {
+  }
+  .inicio {
+    padding: 0px;
+    background-color: #1a1a1d;
+  }
+  .inicio__presentacion {
+    background-color: #659dbd;
+    display: block;
+  }
+  .inicio__titulo {
+    color: #edf5e1;
+    font-size: 62px;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+
+  .inicio__titulo-content-box {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+  }
+  .inicio__content-bloque {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .content {
+    display: flex;
+  }
+  .contenido__foto {
+    display: flex;
+    width: 200px;
+    padding-top: 50px;
+  }
+  .inicio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .inicio__link {
+    display: flex;
+    color: #fbeec1;
+    font-weight: 900;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  .inicio__parrafo-box {
+    padding: 0px;
+  }
+  .inicio__parrafo-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .footerEl {
+    padding-top: 50px;
+  }
+}
